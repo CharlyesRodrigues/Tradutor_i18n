@@ -1,0 +1,60 @@
+.bandeiras{
+
+display:flex;
+
+position: absolute;
+    width: 791px;
+    height: 76px;
+    left: 600px;
+    top: 350px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24   px;
+    line-height: 160%;
+    /* or 38px */
+    align-content:center;
+    
+    color:var( --white);
+}
+
+.select{
+    position: absolute;
+    width: 200px;
+  
+    
+    top: 80px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24   px;
+    line-height: 160%;
+    /* or 38px */
+    
+     
+      left:35px;
+ 
+    color:var( --white);
+}
+
+
+.languages > button{
+
+ cursor: pointer;
+ background:none;
+ border:none;
+ height:70px;
+ width:70px;   
+    
+}
+
+.languages > button > span{
+
+  color: var( --white);
+  font-size:10px;
+    
+       
+       
+       }
