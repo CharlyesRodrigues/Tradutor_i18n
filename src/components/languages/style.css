@@ -32,14 +32,7 @@ position: absolute;
     
 }
 
-.bandeiras > button > span{
 
-  color: var( --white);
-  font-size:10px;
-    
-       
-       
-       }
        .imagem1{
 
 display:flex;
@@ -47,7 +40,7 @@ display:flex;
 position: absolute;
 width: 20px;
 height: 20px;
-left: 50px;
+left: 55px;
 top: 30px;
 
        }
@@ -57,7 +50,7 @@ top: 30px;
 position: absolute;
 width: 20px;
 height: 20px;
-left: 100px;
+left: 120px;
 top: 30px
         
                }
@@ -66,8 +59,18 @@ top: 30px
                 position: absolute;
                 width: 20px;
                 height: 20px;
-                left: 150px;
+                left: 184px;
                                
                 top: 30px;
                 
+                       }
+                     
+                       span{
+                        position: absolute;
+                        color: var( --white);
+                        font-size:15px;
+                             
+                        top: 70px;
+                      
+
                        }

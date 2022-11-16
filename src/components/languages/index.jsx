@@ -1,7 +1,7 @@
 
 
 
-import brasil from '../../assets/flags/brasil.svg'
+import brasil from '../../assets/flags/brasil.png'
 import spain from '../../assets/flags/spain.png'
 import usa from '../../assets/flags/usa.png'
 
@@ -34,7 +34,6 @@ return(
 <div className='bandeiras'>
      
 
-<span >{t("selectLinguagem")}  </span>
 
 {languagesOptions.map((languagesOption)=>(
 <button
@@ -46,10 +45,12 @@ i18n.changeLanguage (languagesOption.value);
 }}
 
 >
-<img src='{languagesOptions.flag}' />
-
-
-
+<img className='imagem1' src='src\assets\flags\brasil.png' />
+<img className='imagem2' src='src\assets\flags\spain.png' />
+<img className='imagem3' src='src\assets\flags\usa.png' />
+<div >
+<span className='idiomas'>{languagesOption.name}</span>
+</div>
 
 </button>
 
