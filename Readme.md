@@ -10,4 +10,5 @@ Utilizando essa biblioteca que facilita muito na hora de da tradução!
 
 * E a terceira tradução esta em Portugues
 
-![portugues](https://user-images.githubusercontent.com/98665329/202062090-c82d2abb-9ff9-493d-932d-35bcf699b2e6.PNG)
+
+![portugues](https://user-images.githubusercontent.com/98665329/202062356-0908d5c8-a450-4a68-93f3-bd72001c079e.PNG)
