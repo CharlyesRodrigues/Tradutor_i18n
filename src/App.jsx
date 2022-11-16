@@ -14,7 +14,11 @@ function App() {
     <h1>{t("welcome")}</h1>
   
  </div>
-<LanguageSwitcher /></div>
+<LanguageSwitcher />
+
+
+
+</div>
   )
 }
 
