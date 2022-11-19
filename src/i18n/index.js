@@ -5,6 +5,10 @@ import enJson from './translation/en.json';
 import espJson from './translation/esp.json';
 import  ptJson from './translation/pt.json';
 
+
+
+
+
 i18n.use(initReactI18next).init({
 fallbackLng: "en",
 interpolation: {
