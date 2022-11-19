@@ -8,7 +8,7 @@ function App() {
 
   const {t} = useTranslation();
   return (
-    <div>
+    
     <div className='container'>
       
     <h1>{t("welcome")}</h1>
@@ -18,7 +18,7 @@ function App() {
 
 
 
-</div>
+
   )
 }
 
