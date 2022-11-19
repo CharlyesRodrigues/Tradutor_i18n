@@ -24,6 +24,7 @@ flag : brasil
         value: "en",
         flag : usa
     },
+   
 ]
 
 
@@ -49,7 +50,9 @@ i18n.changeLanguage (languagesOption.value);
 <img className='imagem2' src='src\assets\flags\spain.png' />
 <img className='imagem3' src='src\assets\flags\usa.png' />
 <div >
-<span className='idiomas'>{languagesOption.name}</span>
+<div className='idiomas'>
+<span >{languagesOption.name}</span>
+</div>
 </div>
 
 </button>

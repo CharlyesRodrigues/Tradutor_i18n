@@ -12,9 +12,9 @@ function App() {
     <div className='container'>
       
     <h1>{t("welcome")}</h1>
-  
+    <LanguageSwitcher />
  </div>
-<LanguageSwitcher />
+
 
 
 
